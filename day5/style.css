@@ -1,0 +1,102 @@
+header {
+  color:red;
+  text-align: center;
+  padding: 30px 10px;
+  background-color: navy;
+}
+nav {
+  background-color:whitesmoke;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+nav ul {
+  list-style: none;
+  display: flex;               /* Make links appear in a row */
+  justify-content: center;     
+  gap: 25px;                   
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 150px;
+  border: 4px solid #fff;
+}
+h1{
+    font-size: 200%;
+    font-style: bold;
+    text-align: center;
+    color:darkblue;
+}
+h2{
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 200%;
+    font-style: bold;
+    text-align: center;
+    color:darkblue;
+     width: fit-content;
+}
+p{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+  margin: 20px 40px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background:cadetblue;
+  color: #1815da;
+  padding: 20px;
+}
+th,td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+  }
+    th {
+  background-color: #0077cc;
+  color: white;
+}
+    tr{
+      color: darkgreen;
+      background-color: aliceblue;
+      font-size: 18px;
+      font-style:inherit;
+    }
+    td{
+        font-family:'Times New Roman', Times, serif;
+        color:brown;
+        font-size: 10px;
+     }
+     ul, ol {
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 18px;
+  color: whitesmoke;
+  font-style: italic;
+}
+     a {
+      display: block;
+      margin: 5px auto;
+      color: blue;
+      font-weight:bold;
+      width: fit-content;
+    }
+   
+   
+    
+     
