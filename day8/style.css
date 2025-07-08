@@ -1,0 +1,64 @@
+h1 {
+  display: flex;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(17, 145, 192);
+  margin: 10px auto;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.rrr ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.rrr ul li a:hover {
+  color: crimson;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  color: #222;
+  padding: 20px;
+}
+
+#home, #aboutus, #services, #contactus {
+  height: 500px;
+  margin: 20px auto 40px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: hsl(311, 90%, 43%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-weight:bold;
+  font-size: larger;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2f502c;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+}
+.sd ul {
+  list-style: none;      
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
