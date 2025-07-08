@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+  <style>
+body{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin:10px,auto;
+        font-family:Arial, sans-serif;
+        background:linear-gradient(135deg, oklab(41.621% -0.01727 -0.27517 / 0.023), hsl(168, 80%, 46%));
+        height:100vh;
+        padding:10px;
+}
+    label {
+      float: left;
+      margin: 10px 0 5px 5px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #1a0eb9;
+}
+input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="contact number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color:crimson;
+      padding:20px;
+  }
+  button {
+    background-color: #e1c80d;
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      width: 300px;
+  }
+  p{
+    text-align: center;
+      font-size: 0.9em;
+    
+  }
+  </style>
+</head>
+<body>
+<form class="container">
+    <h2>SIGNUP</h2>
+
+<label for="FULLNAME">FullName:</label>
+<input type="text" placeholder="enter ur fullname" name="fullname" required>
+<br><br>
+<label for="email">Email:</label>
+<input type="text" placeholder="enter ur email" name="email " required>
+<br><br>
+<label for="password">Password:</label>
+<input type="password" placeholder="Password" name="password" required>
+<br><br>
+<label for="contact number">contact number:</label>
+<input type="contact number" placeholder="contact number" name="contact number" required>
+<br><br>
+<button type=" submit"> signup</button>
+<p> Already have an account?</p>
+</form>
+</body>
+</html>
