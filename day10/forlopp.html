@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+      /*  for(let i=1;i<=20;i++){
+            if(i % 2==0){
+                console.log(i + " is even");
+            }
+        }
+            
+           let sum=0;
+           for(let i=1;i<=100;i++){
+            sum=i+sum;
+           }
+            console.log(sum);
+           
+           for(let i=1;i<=10;i++){
+            console.log("5*"+i+"=" +5*i);
+           }
+           */
+          for (let i = 2; i <= 100; i++) {
+    let count = 0;
+    for (let j = 1; j <= i; j++) {
+        if (i % j === 0) {
+            count++;
+        }
+    }
+    if (count === 2) {
+        console.log(i + " is prime");
+    }
+}
+
+    </script>
+</body>
+</html>

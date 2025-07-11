@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* switch statement
+let day = prompt("enter a day");
+day=Number(day);
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+    case 5:
+    console.log("Friday");
+    break;
+    case 6:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("Invalid day and enter correct day");
+}
+*/
+
+
+/*
+ let name = prompt("Enter your name:");
+let age = prompt("Enter your age:");
+age = Number(age);//it is used convert the string to number
+switch(true){
+
+    case (age >= 13 && age <18):
+    console.log( name + "you are a teenage");
+    case (age >= 18 && age < 65):
+    console.log( name + "you are eligible to vote");
+    break;  
+  case (age >= 65):
+  console .log( name + "you are eligible to vote and a senior citizen");
+    break;
+
+    default:
+ console.log("Invalid");
+
+}
+ */
+let name = prompt("Enter your name:");
+let age = prompt("Enter your age:");
+age = Number(age); // convert to number
+
+let message = "Name: " + name + "\nAge: " + age + "\n";
+
+switch (true) {
+    case (age >= 13 && age < 18):
+        message +="you are a teenager";
+        break;
+    case (age >= 18 && age < 65):
+        message += " you are eligible to vote";
+        break;
+    case (age >= 65):
+        message += " you are eligible to vote and a senior citizen";
+        break;
+    default:
+        message += "Invalid age entered";
+}
+
+alert(message);
+
+    </script>
+</body>
+</html>

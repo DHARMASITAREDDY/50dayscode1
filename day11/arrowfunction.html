@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* hosting 
+        function evenandodd(num){
+            if(num % 2 ==0){
+                return "even";
+            }
+            else{
+              return "odd";
+            }
+        }
+        console.log(evenandodd(5));
+        
+    //non hosting
+       function evenandodd(num){
+            if(num % 2 ==0){
+                return "even";
+            }
+            else{
+              return "odd";
+            }
+        }
+        let input=prompt("enter a number");
+         let result = evenandodd(input);
+         console.log(result);
+        
+
+         //arrow funcrion
+
+
+    let evenAndOdd = (num) => {
+        if (num % 2 === 0) {
+            return "even";
+        } else {
+            return "odd";
+        }
+    };
+
+    let input = prompt("Enter a number:")
+
+    let result = evenAndOdd(input);
+    alert("The number is " + result);
+   
+
+    //using terinary operator
+
+let  evenAndOdd = (num) => {
+   return(num % 2 === 0 ? "even" : "odd");
+}
+    let input = prompt("Enter a number:");
+
+    let result = evenAndOdd(input);
+    alert("The number is " + result);
+
+
+
+ let a = Number(prompt("Enter a number:"));
+ let b= Number(prompt("Enter a number:"));
+
+ let sum=(a,b) =>{
+    return a+b;
+ }
+ alert( "sum:is" + sum(a,b));
+  
+
+ let num= Number(prompt("Enter a number:"));
+ let factorial=(n) =>{
+    let fact=1;
+for(i=1;i<=n;i++){
+    fact=fact*i;
+} 
+return fact;
+    }
+    
+console.log("Factorial of " ,num, "is",factorial(num));
+
+ 
+ let num= Number(prompt("Enter a number:"));
+ let factorial=(n)=>{
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+ }
+ alert("Factorial of "+ num + "is:" + factorial(num));
+
+*/
+
+let num= Number(prompt("Enter a number:"));
+let divisible=(number)=>{
+
+if (number % 3 === 0 && number % 5 === 0) {
+    return "FizzBuzz";
+} else if (number % 3 === 0) {
+    return "Fizz";
+} else if (number % 5 === 0) {
+    return "Buzz";
+} else {
+     return "number";
+}
+}
+
+alert("divisible of "+ num+ "is:" + divisible(num));
+</script>
+
+</body>
+</html>
