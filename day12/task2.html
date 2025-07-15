@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="de">WELCOMWE TO DAY 12</h1>
+
+    <p class="dd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis vel voluptas similique rerum a maiores quis deserunt inventore nisi voluptatem 
+        impedit accusantium, quia obcaecati, aliquam nemo. Odio quis enim libero?</p>
+
+    <p class="dd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur beatae, maxime vel esse ratione inventore ad alias nobis quae doloribus? Iure incidunt 
+        aspernatur enim laudantium iste sit accusantium quibusdam perspiciatis.</p>
+        
+        <p class="dfg">ksjdjkfvdhbjjhhshfsk</p>
+
+    <button onclick="fun()">button>
+
+    <form name="myname">
+        <input type="text" name="username"/>
+    </form>
+
+    <script>
+        let fun = () => {
+              const para1 = document.getElementById("de");
+            para1.style.color = "red";
+
+            const para = document.getElementsByClassName("dd");
+            for (let i = 0; i < para.length; i++) {
+                para[i].style.color = "green";
+                para[i].style.fontWeight = "bold";
+            }
+
+          
+
+            const para2 = document.getElementsByTagName("p");
+            para2[0].innerHTML = "Today I am wasting my time!";
+
+            const para4 = document.forms["myname"];
+            para4.username.value = "dharma sita reddy";
+            document.body.style.backgroundColor="lightgreen";
+        };
+    </script>
+</body>
+</html>
